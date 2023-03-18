@@ -109,8 +109,9 @@ header {
 }
 
 .left-side>.divspan>p {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 27px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 500;
     color: grey;
     margin-right: 20px;
     margin-left: 10px;
@@ -206,7 +207,7 @@ header {
     background-color: rgb(223, 223, 223);
     color: grey;
     border-radius: 20px;
-    padding: 3px 10px;
+    padding: 5px 10px;
 }
 
 .footer-art>.option-art>i {
@@ -255,8 +256,12 @@ header {
 
 #plus {
     font-size: 50px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(94, 92, 92);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 6px;
+    margin-left: -5px;
+    margin-right: -3px;
 }
 
 #twitter {
@@ -279,6 +284,10 @@ header {
     border: solid 1px grey;
     border-radius: 60px;
     padding: 5px;
+}
+
+.right-side>.header-right>.connect-button:hover {
+    background-color: #1da0f256;
 }
 
 .right-side>.header-right>.connect-button>a {
@@ -367,11 +376,16 @@ header {
 .right-side>.main-right>.suggeriti>a {
     text-decoration: none;
     color: black;
-    border: solid 1px black;
-    padding: 10px 30px;
+    border: solid 2px rgb(94, 92, 92);
+    padding: 8px 20px;
     font-size: 20px;
     border-radius: 30px;
     margin-right: 0;
+    margin-top: 30px;
+}
+
+.right-side>.main-right>.suggeriti>a:hover {
+    background-color: rgb(223, 223, 223);
 }
 
 .right-side>.main-right>.saved>.user-rec {
